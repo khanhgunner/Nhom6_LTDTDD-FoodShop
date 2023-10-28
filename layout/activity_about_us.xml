@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_us">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#C62020"
+            android:text="Danh sách nhóm "
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#96C1E3"
+            android:gravity="center_vertical"
+            android:text="Nguyễn Hồ Thành  Nhân (Nhóm Trưởng )"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#EDEBB8"
+            android:text="MSV : 21115053120***"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#96C1E3"
+            android:gravity="center_vertical"
+            android:text="Lê Văn Nguyễn Khánh (người nộp)"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#EDEBB8"
+            android:text="MSV : 21115053120324"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#96C1E3"
+            android:gravity="center_vertical"
+            android:text="Trần Quang Tân"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#EDEBB8"
+            android:gravity="center_vertical"
+            android:text="MSV : 21115053120345" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#96C1E3"
+            android:gravity="center_vertical"
+            android:text="Nguyễn Hồ Thành Nhân"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#EDEBB8"
+            android:text="MSV : 21115053120***"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+</LinearLayout>
