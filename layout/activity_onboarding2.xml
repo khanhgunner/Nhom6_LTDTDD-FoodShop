@@ -23,7 +23,7 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Get your food  "
+        android:text="Giao hàng nhanh chóng"
         android:textColor="#F54749"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:inputType="textMultiLine"
-        android:text="In publishing and graphic design, Lorem ipsum is a\n placeholder text commonly used to demonstrate the\n visual form of a document or "
+        android:text="Đem đến cho khách hàng chất lượng dịch vụ tốt nhất"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,7 +66,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.79"
+        app:layout_constraintVertical_bias="0.801"
         app:srcCompat="@drawable/dichuyen2" />
 
     <ImageButton

@@ -5,6 +5,6 @@
         android:width="370dp"/>
     <solid android:color="#FFFFFFFF"/>
     <stroke android:width="2dp"
-        android:color="#D5CFCF"/>
+        android:color="#000000"/>
     <corners android:radius="@android:dimen/app_icon_size"/>
 </shape>

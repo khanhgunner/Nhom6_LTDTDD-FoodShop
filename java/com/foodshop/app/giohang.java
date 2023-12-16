@@ -18,6 +18,10 @@ import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseException;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 
 public class giohang extends AppCompatActivity {
     private ImageButton home, search, order, profile;
@@ -33,9 +37,6 @@ public class giohang extends AppCompatActivity {
         search = findViewById(R.id.search);
         order = findViewById(R.id.order);
         profile = findViewById(R.id.profile);
-        textview1 = findViewById(R.id.textview1);
-        textview2 = findViewById(R.id.textview2);
-        tong = findViewById(R.id.tong);
         diachi = findViewById(R.id.diachi);
         //chuyển trang
         thanhtoan.setOnClickListener(new View.OnClickListener() {
@@ -67,5 +68,11 @@ public class giohang extends AppCompatActivity {
                 startActivity(profile_go);
             }
         });
+
+        // Write a message to the database
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("massage");
+
+        myRef.setValue("Hello, World!");
     }
 }

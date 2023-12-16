@@ -8,8 +8,13 @@ import android.os.PerformanceHintManager;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.TextView;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class Profile extends AppCompatActivity {
+    TextView ten, email;
     ImageButton btn_profile, home, order;
     View diachi, yeuthich, pttt, dangxuat;
 
@@ -23,7 +28,28 @@ public class Profile extends AppCompatActivity {
         home = findViewById(R.id.home);
         order = findViewById(R.id.order);
         dangxuat = findViewById(R.id.dangxuat);
-       btn_profile = findViewById(R.id.btn_profile1);
+       btn_profile = findViewById(R.id.profile);
+       ten = findViewById(R.id.textView28);
+       email = findViewById(R.id.textView30);
+        FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
+
+        if (currentUser != null) {
+            // Người dùng đã đăng nhập
+            String displayName = currentUser.getDisplayName();
+            String userEmail = currentUser.getEmail();
+
+            // Kiểm tra và hiển thị tên
+            if (displayName != null && !displayName.isEmpty()) {
+                ten.setText(displayName);
+            }
+
+            // Kiểm tra và hiển thị email
+            if (userEmail != null && !userEmail.isEmpty()) {
+                email.setText("" + userEmail);
+            }
+        } else {
+            // Người dùng chưa đăng nhập, có thể xử lý tùy ý
+        }
        btn_profile.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {

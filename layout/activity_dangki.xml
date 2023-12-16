@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     tools:context=".dangki">
 
 
@@ -15,7 +14,6 @@
         android:text="Đăng ký"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
@@ -39,7 +37,7 @@
 
     <EditText
         android:id="@+id/editTextText2"
-        android:layout_width="320dp"
+        android:layout_width="370dp"
         android:layout_height="50dp"
         android:layout_marginTop="4dp"
         android:background="@drawable/custom_textbox"
@@ -47,7 +45,6 @@
         android:inputType="text"
         android:paddingLeft="22dp"
         android:textSize="16sp"
-        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -70,8 +67,8 @@
         app:layout_constraintVertical_bias="0.17" />
 
     <EditText
-        android:id="@+id/editTextText3"
-        android:layout_width="320dp"
+        android:id="@+id/email"
+        android:layout_width="370dp"
         android:layout_height="50dp"
         android:layout_marginTop="4dp"
         android:background="@drawable/custom_textbox"
@@ -79,7 +76,6 @@
         android:inputType="text"
         android:paddingLeft="22dp"
         android:textSize="16sp"
-        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -102,16 +98,15 @@
         app:layout_constraintVertical_bias="0.30" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="320dp"
+        android:id="@+id/mk"
+        android:layout_width="370dp"
         android:layout_height="50dp"
         android:layout_marginTop="4dp"
         android:background="@drawable/custom_textbox"
         android:ems="10"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:paddingLeft="22dp"
         android:textSize="16sp"
-        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -135,16 +130,14 @@
 
     <EditText
         android:id="@+id/editTextTextPassword3"
-        android:layout_width="320dp"
+        android:layout_width="370dp"
         android:layout_height="50dp"
         android:layout_marginTop="4dp"
         android:background="@drawable/custom_textbox"
         android:ems="10"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:paddingLeft="22dp"
         android:textSize="16sp"
-
-        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -153,7 +146,7 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="320dp"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:background="@drawable/custom_button"
         android:text="Đăng ký"
